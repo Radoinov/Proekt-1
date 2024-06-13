@@ -31,12 +31,12 @@
 
             int highest = 0;
             int lowest = 0;
-            double highestAvg = (bulgarianGrades[0] + programmingGrades[0]) / 2.0;
-            double lowestAvg = (bulgarianGrades[0] + programmingGrades[0]) / 2.0;
+            double highestAvg = (bulgarianGrades[0] + programmingGrades[0]) ;
+            double lowestAvg = (bulgarianGrades[0] + programmingGrades[0]);
 
             for (int i = 1; i < students; i++)
             {
-                double avg = (bulgarianGrades[i] + programmingGrades[i]) / 2.0;
+                double avg = (bulgarianGrades[i] + programmingGrades[i]);
 
                 if (avg > highestAvg)
                 {
